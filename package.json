@@ -14,9 +14,11 @@
     "core-js": "^3.6.5",
     "firebase": "^7.21.0",
     "flush-promises": "^1.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.7",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "vuex": "^3.4.0",
+    "webdriverio": "^6.5.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

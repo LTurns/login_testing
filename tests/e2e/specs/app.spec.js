@@ -5,4 +5,9 @@ describe('Vue.js app', () => {
     App.open()
     expect(App.heading).toHaveText('Welcome to Your Vue.js App')
   })
+
+  it('should let you add an email', function() {
+    const inputText = 'foo'; 
+    browser.setValue('input[type="text"]', inputText)
+  })
 })
